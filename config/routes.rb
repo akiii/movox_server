@@ -1,5 +1,5 @@
-MovoxServer::Application.routes.draw do
-  # The priority is based upon order of creation:
+MovoxServer::Application.routes.draw do  # The priority is based upon order of creation:
+  resources :users
   # first created -> highest priority.
 
   # Sample of regular route:
