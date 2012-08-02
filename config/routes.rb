@@ -1,5 +1,6 @@
 MovoxServer::Application.routes.draw do  # The priority is based upon order of creation:
   resources :users
+  resources :videos
   # first created -> highest priority.
 
   # Sample of regular route:
